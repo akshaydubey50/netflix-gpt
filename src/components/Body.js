@@ -6,8 +6,9 @@ import "../App.css"
 import Login from './Login'
 import Browse from './Browse'
 
+
 export default function Body() {
-    const appRouter = createBrowserRouter([
+  const appRouter = createBrowserRouter([
         {
             path:"/",
             element:<Login />
@@ -17,6 +18,7 @@ export default function Body() {
             element:<Browse />
         }
     ])
+
   return (
     <div>
     <RouterProvider router={appRouter}/>
