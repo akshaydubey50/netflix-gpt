@@ -24,7 +24,15 @@
  - Fetch Data for trailer video
  - Update Store With Trailer Video Data
  - Embedded the Youtube video and make it  autoplay and mute
- 
+ - Build Secondary Component
+ - Build Movie List
+ - Build Movie Card
+ - TMDB  Image CDN URL
+ - Made the Browser Page amazing  with Tailwind CSS
+ - Custom Hook to Make Api Call
+ - GPT Search Page
+ - Added Multi Language Feature (Big Feature)
+ - Integrate GPT Api 
 
 
 # Features

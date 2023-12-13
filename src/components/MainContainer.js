@@ -8,7 +8,7 @@ export default function MainContainer() {
     const movies = useSelector((store) => store.movie?.nowPlaying)
 
     if (!movies) return;
-    const mainMovie = movies[0];
+    const mainMovie = movies[16];
     const { original_title, overview,id } = mainMovie
 
     return (
