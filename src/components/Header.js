@@ -62,7 +62,7 @@ export default function Header() {
           >
             {Supported_Language.map((item) => <option key={item.identifier} value={item.identifier}>{item.name}</option>)}
           </select>}
-          <button className='text-white font-bold hover:bg-red-700 flex items-center gap-2 rounded-lg px-4 py-3 bg- red-600'
+          <button className='text-white font-bold hover:bg-red-700 flex items-center gap-2 rounded-lg px-4 py-3 bg-red-600'
             onClick={toggleGptSearch}
           > 
             <span>{showGptSearch?"HomePage":"GPT Search"}</span>

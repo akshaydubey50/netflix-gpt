@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function MovieCard({title,imageId}) {
+  if(!imageId) return;
   return (
     <>
               <div className="cursor-pointer hover:scale-110 transition-all w-48 py-4">

@@ -62,8 +62,8 @@ export default function Login() {
     return (
         <div className="">
             <Header />
-            <div className="absolute ">
-                <img src={NetFlix_Banner} alt="netflix_banner" className="h-screen w-screen " />
+            <div className="absolute">
+                <img src={NetFlix_Banner} alt="netflix_banner" className="h-screen w-screen object-cover" />
             </div>
 
             <form

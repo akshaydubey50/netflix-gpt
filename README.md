@@ -33,6 +33,7 @@
  - GPT Search Page
  - Added Multi Language Feature (Big Feature)
  - Integrate GPT Api 
+ - Make a Modal View UI for movie card to show detail & play trailer
 
 
 # Features

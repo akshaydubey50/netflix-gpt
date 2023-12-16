@@ -1,12 +1,12 @@
 import axios from 'axios'
 import { useEffect } from 'react';
 import { API_Options } from '../utils/constant';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { addUpcomingMovie } from '../utils/movieSlice';
 
 export const useUpcomingMovie = () => {
     const dispatch = useDispatch();
-
+    const upcomingMovie = useSelector((store) => store.movie.upcomingMovie)
     const fetchData = async () => {
         try {
             const jsonData = await axios.get("https://api.themoviedb.org/3/movie/upcoming", API_Options)
@@ -19,7 +19,7 @@ export const useUpcomingMovie = () => {
     }
 
     useEffect(() => {
-        fetchData();
+        !upcomingMovie && fetchData();
     }, [])
 
 }
