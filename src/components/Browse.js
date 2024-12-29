@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import React, { useEffect } from 'react'
 import Header from './Header'
 import { useNowPlayingMovie } from "../hooks/useNowPlayingMovie"

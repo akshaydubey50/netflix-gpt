@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import React, { useRef, useState } from "react";
 import { FaRegEye, FaRegEyeSlash } from "react-icons/fa";
 

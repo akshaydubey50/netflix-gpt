@@ -1,6 +1,8 @@
+/* eslint-disable no-unused-vars */
+
 import React from 'react';
-import { FaPlay } from 'react-icons/fa';
-import { GoInfo } from 'react-icons/go';
+// import { FaPlay } from 'react-icons/fa';
+// import { GoInfo } from 'react-icons/go';
 
 export default function VideoTitle({ title, description }) {
   return (
