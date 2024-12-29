@@ -20,6 +20,7 @@ export const useNowPlayingMovie = ()=>{
 
     useEffect(() => {
         !nowPlayingMovie &&  fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
 }

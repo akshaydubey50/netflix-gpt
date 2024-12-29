@@ -20,6 +20,8 @@ export const useTopRatedMovie = () => {
 
     useEffect(() => {
         !topratedMovie && fetchData();
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
 }

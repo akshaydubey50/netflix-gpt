@@ -20,6 +20,7 @@ export const usePopularMovie = () => {
 
     useEffect(() => {
        !popularMovie && fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
 }

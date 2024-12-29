@@ -24,7 +24,7 @@ export default function GptSearchBar() {
 
         const chatCompletion = await openai.chat.completions.create({
             messages: [{ role: 'user', content: movieQueryVal }],
-            model: 'gpt-3.5-turbo',
+            model: 'gpt-4',
         });
 
         if (!chatCompletion.choices) alert("No Data Found for searched movies", searchVal.current.value)

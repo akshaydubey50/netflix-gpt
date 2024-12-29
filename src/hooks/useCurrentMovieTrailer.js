@@ -21,5 +21,6 @@ export const useCurrentMovieTrailer = (movieId)=>{
     };
     useEffect(() => {
        !currentMovie&& fetchMovieTrailerData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 }

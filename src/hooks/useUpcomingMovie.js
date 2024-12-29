@@ -18,8 +18,10 @@ export const useUpcomingMovie = () => {
         }
     }
 
+
     useEffect(() => {
         !upcomingMovie && fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
 }
